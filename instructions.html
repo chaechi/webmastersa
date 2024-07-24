@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Template User Instructions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #e65c4e;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow: auto;
+        }
+
+        .note {
+            background: #fef6e4;
+            padding: 10px;
+            border: 1px solid #e2c2a2;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Restaurant Template User Instructions</h1>
+        <div class="section">
+            <div class="section-title">
+                <h2>1. Introduction</h2>
+            </div>
+            <p>Welcome to the Multipurpose One Page Template! This template is designed to help you create a
+                professional and visually appealing website using Bootstrap 5.3. It features a responsive design, a
+                range of customization options, and animations to make your site stand out.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">
+                <h2>2. Installation</h2>
+            </div>
+            <p>Follow these steps to install and set up your website template:</p>
+            <ol>
+                <li>Unzip the downloaded file.</li>
+                <li>Open the folder and locate the <code>index.html</code> file. This is the main file for your
+                    template.</li>
+                <li>Ensure you have the required files and folders, including <code>css/</code>, <code>js/</code>, and
+                    <code>resources/</code> directories.</li>
+                <li>Upload the contents to your web server or local development environment.</li>
+                <li>Open <code>index.html</code> in your browser to view the template.</li>
+            </ol>
+            <div class="note">
+                <p><strong>Note:</strong> Ensure you have a modern web browser to view and test the template. </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">
+                <h2>3. Customization</h2>
+            </div>
+            <p>To customize the template, follow these instructions:</p>
+            <h3>3.1. Changing Colors</h3>
+            <p>Update the color palette by modifying the CSS files located in the <code>css/</code> folder. The primary
+                color used is <code>#e65c4e</code>. You can change it in the <code>styles.css</code> file.</p>
+            <pre><code>/* Change primary color */
+                {
+                    --primary-color: #e65c4e;
+                    }</code></pre>
+            <h3>3.2. Updating Text Content</h3>
+            <p>Edit the text content directly in the <code>index.html</code> file. For sections such as the menu,
+                testimonials, and pricing, look for specific <code>&lt;section&gt;</code> tags and modify the content
+                accordingly.</p>
+
+            <h3>3.3. Modifying Images</h3>
+            <p>Replace placeholder images in the <code>images/</code> directory with your own images. Update image paths
+                in the HTML files if necessary.</p>
+
+            <h3>3.4. Responsive Design</h3>
+            <p>The template is built using Bootstrap 5.3 and is responsive by default. To ensure responsiveness, use
+                Bootstrap’s grid system and classes as described in the <a
+                    href="https://getbootstrap.com/docs/5.3/layout/grid/" target="_blank">Bootstrap Grid
+                    Documentation</a>.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">
+                <h2>4. Adding Custom Features</h2>
+            </div>
+            <p>To add custom features or functionalities:</p>
+            <ol>
+                <li>Refer to the <code>js/</code> folder for existing JavaScript files. You can add your custom scripts
+                    here.</li>
+                <li>Update the <code>index.html</code> to include new sections or features. Use Bootstrap components for
+                    consistency.</li>
+                <li>Ensure any new CSS styles are added to the <code>styles.css</code> file to maintain a consistent
+                    design.</li>
+            </ol>
+            <div class="note">
+                <p><strong>Note:</strong> For advanced customizations, refer to the <a
+                        href="https://getbootstrap.com/docs/5.3/customize/" target="_blank">Bootstrap Customization
+                        Documentation</a>.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">
+                <h2>5. Troubleshooting</h2>
+            </div>
+            <p>If you encounter any issues:</p>
+            <ul>
+                <li>Ensure that all file paths are correct and that no files are missing.</li>
+                <li>Check the browser console for any JavaScript errors and resolve them as needed.</li>
+                <li>Clear your browser cache and refresh the page to see changes.</li>
+            </ul>
+        </div>
+
+
+
+        <div class="section">
+            <div class="section-title">
+                <h2>7. License Information</h2>
+            </div>
+            <p>This template is licensed under the <a href="https://themeforest.net/licenses"
+                    target="_blank">ThemeForest License</a>. Ensure that you comply with all licensing terms when using
+                and distributing the template.</p>
+        </div>
+
+
+
+        <div class="section">
+            <div class="section-title">
+                <h2>8. Table of Contents</h2>
+            </div>
+
+            <ul>
+                <li><a href="#navbar">Navbar</a></li>
+                <li><a href="#carousel1">Bacground Image Carousel</a></li>
+                <li><a href="#scrollText">Infinite Scroll Text Section</a></li>
+                <li><a href="#aboutus">About Us Section</a></li>
+                <li><a href="#ourteam">Meet Our Team</a></li>
+                <li><a href="#stats">Stats Section</a></li>
+                <li><a href="#expertise">Our Expertise Section</a></li>
+                <li><a href="#ourservices">Our Services Section</a></li>
+                <li><a href="#ourwork">Our Work Section</a></li>
+                <li><a href="#pricing">Pricing Section</a></li>
+                <li><a href="#testimonial">Testimonial Section</a></li>
+                <li><a href="#gallery">Image Gallery Section</a></li>
+                <li><a href="#footer">Footer Section</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="section" id="navbar">
+            <h2>a. Navbar Section</h2>
+            <p>The navbar is a critical part of your website, providing easy navigation for users. Below are the details
+                on how to modify the navbar section:</p>
+
+            <h3>HTML Structure</h3>
+            <p>The HTML structure of the navbar is as follows:</p>
+            <pre>
+            &lt;!-- Navbar--&gt;
+            &lt;nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar"&gt;
+                &lt;div class="container-fluid"&gt;
+                    &lt;a class="navbar-brand" href="index.html"&gt;Logo&lt;/a&gt;
+                    &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&gt;
+                        &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+                        &lt;div class="row w-100"&gt;
+            
+                            &lt;div class="col-lg-3 mt-3 d-flex justify-content-center"&gt;
+                                &lt;input type="checkbox" class="checkbox" id="checkbox"&gt;
+                                &lt;label for="checkbox" class="checkbox-label"&gt;
+                                    &lt;i class="fas fa-moon"&gt;&lt;/i&gt;
+                                    &lt;i class="fas fa-sun"&gt;&lt;/i&gt;
+                                    &lt;span class="ball"&gt;&lt;/span&gt;
+                                &lt;/label&gt;
+                                &lt;label class="change-mode-label" id="change-mode-label-id"&gt;Change Mode&lt;/label&gt;
+                            &lt;/div&gt;
+            
+                            &lt;div class="col-lg-6"&gt;
+                                &lt;ul class="navbar-nav justify-content-center mb-2 mt-2 "&gt;
+                                    &lt;li class="nav-item"&gt;
+                                        &lt;a class="nav-link active" aria-current="page" href="#"&gt;Home&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;
+                                        &lt;a class="nav-link" href="#parallax2"&gt;About&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;
+                                        &lt;a class="nav-link" href="#parallax5"&gt;Services&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;
+                                        &lt;a class="nav-link" href="#parallax7"&gt;Gallery&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;
+                                        &lt;a class="nav-link" href="#footer"&gt;Contact&lt;/a&gt;
+                                    &lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+            
+                            &lt;div class="col-lg-3 d-flex justify-content-end"&gt;
+                                &lt;div class="search-box navbar-icons mt-2 justify-content-end "&gt;
+                                    &lt;a class="search-icon btn btn-outline-danger"&gt;
+                                        &lt;i class="bi bi-search"&gt;&lt;/i&gt;
+                                    &lt;/a&gt;
+                                    &lt;form class="search-form"&gt;
+                                        &lt;input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"&gt;
+                                        &lt;button class="btn btn-outline-danger"&gt;
+                                            &lt;i class="bi bi-search"&gt;&lt;/i&gt;
+                                        &lt;/button&gt;
+                                    &lt;/form&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+            
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+                    </pre>
+
+            <h3>Modifying the Logo</h3>
+            <p>To change the logo, update the
+                <code>&lt;a class="navbar-brand" href="index.html"&gt;Logo&lt;/a&gt;</code> element. Replace the text
+                "Logo" with your brand name or an image tag:</p>
+            <pre>
+            &lt;a class="navbar-brand" href="index.html"&gt;
+                &lt;img src="path/to/your-logo.png" alt="Logo"&gt;
+            &lt;/a&gt;
+                    </pre>
+
+            <h3>Navbar Links</h3>
+            <p>The navbar contains links to different sections of your website. You can modify these links in the
+                <code>&lt;ul class="navbar-nav"&gt;</code> element. Each link is represented by a
+                <code>&lt;li class="nav-item"&gt;</code> containing an <code>&lt;a class="nav-link"&gt;</code>:</p>
+            <pre>
+            &lt;ul class="navbar-nav justify-content-center mb-2 mt-2 "&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link active" aria-current="page" href="#"&gt;Home&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#parallax2"&gt;About&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#parallax5"&gt;Services&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#parallax7"&gt;Gallery&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#footer"&gt;Contact&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+                    </pre>
+            <p>Change the href attribute to point to the respective sections of your website.</p>
+
+            <h3>Dark/Light Mode Toggle</h3>
+            <p>The navbar includes a toggle switch for dark and light modes:</p>
+            <pre>
+            &lt;input type="checkbox" class="checkbox" id="checkbox"&gt;
+            &lt;label for="checkbox" class="checkbox-label"&gt;
+                &lt;i class="fas fa-moon"&gt;&lt;/i&gt;
+                &lt;i class="fas fa-sun"&gt;&lt;/i&gt;
+                &lt;span class="ball"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+            &lt;label class="change-mode-label" id="change-mode-label-id"&gt;Change Mode&lt;/label&gt;
+                    </pre>
+            <p>This switch is styled using Font Awesome icons. You can customize the functionality by updating the
+                JavaScript file where the dark/light mode logic is implemented.</p>
+
+            <pre>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            // Get the checkbox and html element
+                            const checkbox = document.getElementById('checkbox');
+                            const label = document.getElementById('change-mode-label-id');
+                            
+                            const htmlElement = document.documentElement;
+                        
+                            // Function to toggle theme based on checkbox state
+                            function toggleTheme() {
+                                if (checkbox.checked) {
+                                    htmlElement.setAttribute('data-bs-theme', 'dark');
+                                    label.textContent = 'Dark Mode'; // Change text for dark mode
+                                } else {
+                                    htmlElement.removeAttribute('data-bs-theme');
+                                   
+                                    label.textContent = 'Light Mode';
+                                }
+                            }
+                        
+                            // Initialize theme based on the current checkbox state
+                            toggleTheme();
+                        
+                            // Add event listener for checkbox change
+                            checkbox.addEventListener('change', function() {
+                                toggleTheme();
+                            });
+                        });
+                    </pre>
+
+            <h3>Search Box</h3>
+            <p>The search box is located at the right end of the navbar:</p>
+            <pre>
+            &lt;div class="search-box navbar-icons mt-2 justify-content-end "&gt;
+                &lt;a class="search-icon btn btn-outline-danger"&gt;
+                    &lt;i class="bi bi-search"&gt;&lt;/i&gt;
+                &lt;/a&gt;
+                &lt;form class="search-form"&gt;
+                    &lt;input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"&gt;
+                    &lt;button class="btn btn-outline-danger"&gt;
+                        &lt;i class="bi bi-search"&gt;&lt;/i&gt;
+                    &lt;/button&gt;
+                &lt;/form&gt;
+            &lt;/div&gt;
+                    </pre>
+            <p>Update the placeholder text or button styles as needed. Ensure the search functionality is implemented in
+                your CSS file.</p>
+            <pre>
+
+.search-form {
+    display: none;
+    transition: all 1s ease-in-out;
+  }
+  .search-form input {
+    transition: all 1s ease-in-out;
+  }
+  
+  .search-box:hover .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box:hover .search-icon {
+    display: none;
+  }
+  
+  .search-box:hover .search-form input {
+    width: 200px;
+  }
+                    </pre>
+
+            <h3>Styling</h3>
+            <p>Additional custom styles for the navbar can be found in your <code>custom.css</code> file. Here you can
+                adjust margins, paddings, colors, and other styling properties to match your brand:</p>
+            <pre>
+                        .custom-navbar {
+                            background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+                            transition: background-color 0.5s ease; /* Smooth transition for background change */
+                          }
+                          
+                    </pre>
+            <p>Update the styles to match your desired look and feel.</p>
+        </div>
+
+        <div class="section" id="carousel1">
+
+
+            <h2>b. Background Image Carousel Section</h2>
+            <p>The carousel component is a great way to display multiple images in a rotating slider. Below are the
+                details on how to modify and use the carousel section:</p>
+
+            <h3>HTML Structure</h3>
+            <p>The HTML structure of the carousel is as follows:</p>
+            <pre>
+        &lt;div id="carousel-container"&gt;
+            &lt;div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"&gt;
+                &lt;div class="carousel-indicators"&gt;
+                    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"&gt;&lt;/button&gt;
+                    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"&gt;&lt;/button&gt;
+                    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"&gt;&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="carousel-inner"&gt;
+                    &lt;div class="carousel-item active"&gt;
+                        &lt;img src="resources/background-img/2.png" class="d-block w-100" alt="First slide"&gt;
+                        &lt;div class="carousel-caption d-none d-md-block"&gt;
+                            &lt;h5&gt;First Slide&lt;/h5&gt;
+                            &lt;p&gt;First slide description.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="carousel-item"&gt;
+                        &lt;img src="resources/background-img/12.png" class="d-block w-100" alt="Second slide"&gt;
+                        &lt;div class="carousel-caption d-none d-md-block"&gt;
+                            &lt;h5&gt;Second Slide&lt;/h5&gt;
+                            &lt;p&gt;Second slide description.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="carousel-item"&gt;
+                        &lt;img src="resources/background-img/3.png" class="d-block w-100" alt="Third slide"&gt;
+                        &lt;div class="carousel-caption d-none d-md-block"&gt;
+                            &lt;h5&gt;Third Slide&lt;/h5&gt;
+                            &lt;p&gt;Third slide description.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"&gt;
+                    &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+                    &lt;span class="visually-hidden"&gt;Previous&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"&gt;
+                    &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+                    &lt;span class="visually-hidden"&gt;Next&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="overtop text-center" style="height: 100vh;"&gt;
+                &lt;h1 class="display-3"&gt;Welcome to Our Template&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </pre>
+
+            <h3>Adding/Modifying Slides</h3>
+            <p>To add or modify slides, update the <code>&lt;div class="carousel-inner"&gt;</code> element. Each slide
+                is represented by a <code>&lt;div class="carousel-item"&gt;</code> containing an
+                <code>&lt;img&gt;</code> tag and a <code>&lt;div class="carousel-caption"&gt;</code>:</p>
+            <pre>
+        &lt;div class="carousel-item active"&gt;
+            &lt;img src="resources/background-img/2.png" class="d-block w-100" alt="First slide"&gt;
+            &lt;div class="carousel-caption d-none d-md-block"&gt;
+                &lt;h5&gt;First Slide&lt;/h5&gt;
+                &lt;p&gt;First slide description.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </pre>
+            <p>Update the <code>src</code> attribute of the <code>&lt;img&gt;</code> tag to point to your image path,
+                and change the text inside the <code>&lt;h5&gt;</code> and <code>&lt;p&gt;</code> tags to your desired
+                slide title and description.</p>
+
+            <h3>Customizing the Carousel Controls</h3>
+            <p>The carousel controls (previous and next buttons) allow users to navigate between slides:</p>
+            <pre>
+        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"&gt;
+            &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+            &lt;span class="visually-hidden"&gt;Previous&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"&gt;
+            &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+            &lt;span class="visually-hidden"&gt;Next&lt;/span&gt;
+        &lt;/button&gt;
+                </pre>
+            <p>You can customize the appearance of these controls using CSS by targeting the
+                <code>.carousel-control-prev-icon</code> and <code>.carousel-control-next-icon</code> classes in your
+                <code>custom.css</code> file.</p>
+
+            <h3>Adding Custom Overlays</h3>
+            <p>The carousel component includes a custom overlay with the class <code>.overtop</code> for displaying
+                additional content:</p>
+            <pre>
+        &lt;div class="overtop text-center" style="height: 100vh;"&gt;
+            &lt;h1 class="display-3"&gt;Welcome to Our Template&lt;/h1&gt;
+        &lt;/div&gt;
+                </pre>
+            <p>You can modify the text inside the <code>&lt;h1&gt;</code> tag or add more elements inside this overlay
+                as needed.</p>
+
+            <h3>JavaScript Functionality</h3>
+            <p>The following JavaScript code is used to create a scrolling effect on the overlay text:</p>
+            <pre>
+        &lt;script&gt;
+        document.addEventListener("DOMContentLoaded", () =&gt; {
+            const mainText1 = document.querySelector(".display-3");
+        
+            document.addEventListener("scroll", function () {
+                let value = window.scrollY;
+                mainText1.style.marginTop = value + "px";
+            })
+        });
+        &lt;/script&gt;
+                </pre>
+            <p>Make sure to include this script in your <code>script.js</code> file. This script selects the element
+                with the class <code>.display-3</code> and adjusts its margin based on the scroll position, creating a
+                parallax scrolling effect.</p>
+
+            <h3>Styling</h3>
+            <p>Additional custom styles for the carousel can be found in your <code>custom.css</code> file. Here you can
+                adjust margins, paddings, colors, and other styling properties to match your brand:</p>
+            <pre>
+        .overtop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+        }
+                </pre>
+            <p>Update the styles to match your desired look and feel.</p>
+
+
+        </div>
+        <div class="section" id="scrollText">
+            <h2>c. Infinite Scroll Text Section</h2>
+            <p>The marquee text section is a great way to display scrolling text on your website. Below are the details
+                on how to modify and use this section:</p>
+
+            <h3>HTML Structure</h3>
+            <p>The HTML structure of the marquee text section is as follows:</p>
+            <pre>
+        &lt;div id="section1"&gt;
+            &lt;div class="container-fluid"&gt;
+                &lt;div class="row"&gt;
+                    &lt;section class="b-section"&gt;
+                        &lt;div class="b-section-marquee-box"&gt;
+                            &lt;h2 class="marquee-text"&gt;Explore our services, read our blog, and connect with us for more information. We have something for everyone! •&lt;/h2&gt;
+                            &lt;h2 class="marquee-text"&gt;Explore our services, read our blog, and connect with us for more information. We have something for everyone! •&lt;/h2&gt;
+                        &lt;/div&gt;
+                    &lt;/section&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </pre>
+
+            <h3>CSS Styling</h3>
+            <p>The following CSS styles are used to create the marquee text effect:</p>
+            <pre>
+        #section1 {
+            background-color: #ed7f57;
+        }
+        
+        .b-section {
+            margin-top: 15px;
+        }
+        
+        .b-section-marquee-box {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .b-section-marquee-box h2 {
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #00ffff;
+            font-size: 3em;
+            font-weight: bold;
+            flex-shrink: 0;
+            padding: 0 10px;
+            width: max-content;
+            display: flex;
+            align-items: center;
+            transform: translateX(0);
+            animation: b-text-scroll 35s linear infinite;
+            font-family: "Outfit";
+        }
+        
+        @keyframes b-text-scroll {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-100%, 0, 0); }
+        }
+        
+        @media (max-width: 600px) {
+            .b-section-marquee-box h2 {
+                font-size: 2em;
+            }
+        }
+                </pre>
+
+            <h3>Customizing the Text</h3>
+            <p>To change the text in the marquee, update the content inside the
+                <code>&lt;h2 class="marquee-text"&gt;</code> tags:</p>
+            <pre>
+        &lt;h2 class="marquee-text"&gt;Your custom text here! •&lt;/h2&gt;
+        &lt;h2 class="marquee-text"&gt;Your custom text here! •&lt;/h2&gt;
+                </pre>
+            <p>Ensure the text in both <code>&lt;h2&gt;</code> elements is the same to create a seamless scrolling
+                effect.</p>
+
+            <h3>Adjusting the Animation Speed</h3>
+            <p>The speed of the scrolling text can be adjusted by changing the duration in the <code>animation</code>
+                property:</p>
+            <pre>
+        .b-section-marquee-box h2 {
+            animation: b-text-scroll <strong>35s</strong> linear infinite;
+        }
+                </pre>
+            <p>Decrease the duration value to make the text scroll faster, or increase it to make it scroll slower.</p>
+
+            <h3>Responsive Design</h3>
+            <p>The font size of the marquee text is adjusted for smaller screens using a media query:</p>
+            <pre>
+        @media (max-width: 600px) {
+            .b-section-marquee-box h2 {
+                font-size: 2em;
+            }
+        }
+                </pre>
+            <p>You can modify the font size or add more styles within the media query to improve the appearance on
+                smaller devices.</p>
+
+        </div>
+
+        <div class="section" id="aboutus">
+            <h2>d. Parallax "About Us" Section</h2>
+            <p>The parallax "About Us" section is designed to create a visually appealing introduction to your business.
+                Below are the details on how to modify and use this section:</p>
+
+            <h3>HTML Structure</h3>
+            <p>The HTML structure of the parallax "About Us" section is as follows:</p>
+            <pre>
+        &lt;!-- Parallax about us Section --&gt;
+        &lt;div class="parallax" id="parallax2"&gt;
+            &lt;div class="container text-center d-flex align-items-center justify-content-center" style="height: 100vh;"&gt;
+                &lt;section class="about-section"&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="section-title"&gt;About Us&lt;/div&gt;
+                        &lt;div class="content row"&gt;
+                            &lt;div class="image-column col-12 col-lg-6"&gt;
+                                &lt;img src="resources/background-img/5.png" alt="About Us Image"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="text-column col-12 col-lg-6"&gt;
+                                &lt;h3&gt;Who We Are&lt;/h3&gt;
+                                &lt;p&gt;We are a team of passionate professionals dedicated to delivering top-notch solutions to our clients. Our mission is to provide innovative and effective solutions that meet our clients' needs and exceed their expectations.&lt;/p&gt;
+                                &lt;p&gt;With years of experience in the industry, we have built a reputation for excellence and a commitment to quality. Our team is comprised of experts in various fields, ensuring that we can handle any challenge that comes our way.&lt;/p&gt;
+                                &lt;a href="#" class="btn"&gt;Learn More&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </pre>
+
+            <h3>CSS Styling</h3>
+            <p>The following CSS styles are used to create the parallax effect and style the "About Us" section:</p>
+            <pre>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #parallax2 {
+            background-image: url(resources/background-img/7.png);
+        }
+        
+        #parallax2::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+        
+        .about-section {
+            z-index: 3;
+            padding: 60px 0;
+            backdrop-filter: blur(20px);
+            background-color: transparent;
+            background-image: linear-gradient(
+                120deg,
+                rgba(255, 255, 255, 0.1),
+                rgba(255, 255, 255, 0.1)
+            );
+        }
+                </pre>
+
+            <h3>Customizing the Content</h3>
+            <p>To change the content in the "About Us" section, update the text inside the <code>&lt;h3&gt;</code> and
+                <code>&lt;p&gt;</code> tags:</p>
+            <pre>
+        &lt;h3&gt;Your custom heading here&lt;/h3&gt;
+        &lt;p&gt;Your custom paragraph here.&lt;/p&gt;
+        &lt;p&gt;Your custom paragraph here.&lt;/p&gt;
+        &lt;a href="#" class="btn"&gt;Your custom button text&lt;/a&gt;
+                </pre>
+            <p>Update the <code>src</code> attribute of the <code>&lt;img&gt;</code> tag to change the image:</p>
+            <pre>
+        &lt;img src="resources/background-img/your-image.png" alt="About Us Image"&gt;
+                </pre>
+
+            <h3>Changing the Background Image</h3>
+            <p>To change the background image of the parallax section, update the <code>background-image</code> property
+                in the CSS:</p>
+            <pre>
+        #parallax2 {
+            background-image: url(resources/background-img/your-background-image.png);
+        }
+                </pre>
+
+        </div>
+
+        <div class="section" id="ourteam">
+
+            <h2>e. Meet Our Team</h2>
+            <p>This section displays the team members with a card flip effect.</p>
+
+            <h3>HTML Structure</h3>
+            <p>Use the following HTML code to create the meet our team:</p>
+            <pre><code>
+        &lt;div class="chefSection py-5" id="chefs"&gt;
+            &lt;div class="container"&gt;
+                &lt;div class="chefSectionText text-center mb-5"&gt;
+                    &lt;h2&gt;Meet Our Team&lt;/h2&gt;
+                    &lt;p&gt;Our talented team of web experts&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="col-lg-4 col-md-4 col-12 mt-5"&gt;
+                        &lt;div class="card"&gt;
+                            &lt;div class="card-content3"&gt;
+                                &lt;div class="card-front"&gt;
+                                    &lt;img src="resources/staff/1.png" alt="Chef 1" class="img-fluid rounded"&gt;
+                                    &lt;h4&gt;Chef John Doe&lt;/h4&gt;
+                                    &lt;p&gt;Head Chef&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card-back"&gt;
+                                    &lt;h4 class="text-center"&gt;Chef John Doe&lt;/h4&gt;
+                                    &lt;p class="text-center"&gt;Head Chef&lt;/p&gt;
+                                    &lt;p class="text-center"&gt;
+                                        With over 15 years of experience in the culinary arts,
+                                        Chef John Doe is renowned for his innovative approach to
+                                        traditional recipes. His passion for farm-to-table cuisine
+                                        ensures every dish is fresh and bursting with flavor.
+                                    &lt;/p&gt;
+                                    &lt;div class="col-12 mx-auto mt-3 social-icons3"&gt;
+                                        &lt;div class="row text-sm-center text-md-start"&gt;
+                                            &lt;ul class="list-unstyled list-inline text-center"&gt;
+                                                &lt;li class="list-inline-item me-2"&gt;
+                                                    &lt;a href="#" class="form-floating text-primary"&gt;
+                                                        &lt;i class="bi bi-facebook" style="font-size: 22px"&gt;&lt;/i&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/li&gt;
+                                                &lt;li class="list-inline-item me-2"&gt;
+                                                    &lt;a href="#" class="form-floating text-white"&gt;
+                                                        &lt;i class="bi bi-twitter-x" style="font-size: 22px"&gt;&lt;/i&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/li&gt;
+                                                &lt;li class="list-inline-item me-2"&gt;
+                                                    &lt;a href="#" class="form-floating text-warning"&gt;
+                                                        &lt;i class="bi bi-instagram" style="font-size: 22px"&gt;&lt;/i&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/li&gt;
+                                                &lt;li class="list-inline-item me-2"&gt;
+                                                    &lt;a href="#" class="form-floating text-success"&gt;
+                                                        &lt;i class="bi bi-linkedin" style="font-size: 22px"&gt;&lt;/i&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/li&gt;
+                                                &lt;li class="list-inline-item me-2"&gt;
+                                                    &lt;a href="#" class="form-floating text-danger"&gt;
+                                                        &lt;i class="bi bi-youtube" style="font-size: 22px"&gt;&lt;/i&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </code></pre>
+
+            <h3>CSS Styling</h3>
+            <p>Apply the following CSS to style the meet our team Section:</p>
+            <pre><code>
+        .chefSection .card {
+            border: none;
+            border-radius: 5px;
+            position: relative;
+            width: 100%;
+            height: 360px; /* Set a fixed height */
+        }
+        
+        .chefSection .card-content3 {
+            position: relative;
+            transition: transform 1s;
+            transform-style: preserve-3d;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid black;
+            border-radius: 5px;
+            perspective: 800px; /* Add perspective for 3D effect */
+        }
+        
+        .chefSection .card:hover .card-content3 {
+            transform: rotateY(180deg);
+        }
+        
+        .chefSection .card-front,
+        .chefSection .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .chefSection .card-front img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the container */
+            border-radius: 5px 5px 0 0; /* Adjust the border-radius if necessary */
+        }
+                </code></pre>
+
+            <h3>JavaScript Functionality</h3>
+            <p>The following JavaScript prevents the card flip effect during scrolling to avoid undesired card flips:
+            </p>
+            <pre><code>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cards = document.querySelectorAll(".chefSection .card");
+            if (cards.length > 0) {
+                function handleScroll() {
+                    cards.forEach((card) => {
+                        card.classList.add("no-flip");
+                    });
+                    setTimeout(() => {
+                        cards.forEach((card) => {
+                            card.classList.remove("no-flip");
+                        });
+                    }, 500);
+                }
+        
+                document.addEventListener("scroll", handleScroll);
+            }
+        });
+                </code></pre>
+
+            <h3>Notes</h3>
+            <ul>
+                <li>Ensure that the image paths in the HTML are correct and point to valid image files.</li>
+                <li>Customize the text content (e.g., chef names, descriptions) as needed.</li>
+                <li>Adjust the CSS to match your design requirements, especially the card dimensions and border-radius.
+                </li>
+                <li>Include the necessary Bootstrap and icon library files in your project for proper styling and
+                    functionality.</li>
+                <li>If you encounter issues with the card flip effect or scrolling, check for any conflicting CSS or
+                    JavaScript code.</li>
+            </ul>
+
+        </div>
+
+        <div class="section" id="stats">
+            <h2>g. Stats Section</h2>
+            <p>This section highlights key statistics with a parallax background effect and animated stats boxes.</p>
+
+            <h3>HTML Structure</h3>
+            <p>Use the following HTML code to create the Stats Section:</p>
+            <pre><code>
+        &lt;div class="parallax" id="parallax4"&gt;
+            &lt;div class="stats-section text-center"&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-12 mb-4"&gt;
+                            &lt;h2 class="section-title"&gt;Innovation Driven by &lt;br&gt;Passion and Expertise&lt;/h2&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row stats-row"&gt;
+        
+                        &lt;div class="col-md-3 col-sm-6 stat"&gt;
+                            &lt;div class="stat-box"&gt;
+                                &lt;div class="stat-icon"&gt;
+                                    &lt;i class="bi bi-calendar3"&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                                &lt;div class="stat-content"&gt;
+                                    &lt;span class="stat-number" data-val="10"&gt;0&lt;/span&gt;Y
+                                    &lt;p&gt;Years in Business&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="col-md-3 col-sm-6 stat"&gt;
+                            &lt;div class="stat-box"&gt;
+                                &lt;div class="stat-icon"&gt;
+                                    &lt;i class="bi bi-code-slash"&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                                &lt;div class="stat-content"&gt;
+                                    &lt;span class="stat-number" data-val="500"&gt;0&lt;/span&gt;+
+                                    &lt;p&gt;Projects Completed&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="col-md-3 col-sm-6 stat"&gt;
+                            &lt;div class="stat-box"&gt;
+                                &lt;div class="stat-icon"&gt;
+                                    &lt;i class="bi bi-people"&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                                &lt;div class="stat-content"&gt;
+                                    &lt;span class="stat-number" data-val="1000"&gt;0&lt;/span&gt;+
+                                    &lt;p&gt;Clients Served&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="col-md-3 col-sm-6 stat"&gt;
+                            &lt;div class="stat-box"&gt;
+                                &lt;div class="stat-icon"&gt;
+                                    &lt;i class="bi bi-trophy"&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                                &lt;div class="stat-content"&gt;
+                                    &lt;span class="stat-number" data-val="30"&gt;0&lt;/span&gt;+
+                                    &lt;p&gt;Awards Won&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </code></pre>
+
+            <h3>CSS Styling</h3>
+            <p>Apply the following CSS to style the Stats Section:</p>
+            <pre><code>
+        #parallax4 {
+            background-image: url(resources/background-img/1.png);
+        }
+        
+        .stats-section {
+            background: url('your-tech-company-image-path.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            padding: 50px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stats-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            z-index: 2;
+            position: relative;
+            font-family: "Outfitv";
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        .stats-row .stat {
+            margin: 20px 0;
+            z-index: 2;
+            position: relative;
+            animation: fadeInUp 2s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .stats-row .stat-box {
+            height: 200px;
+            backdrop-filter: blur(20px);
+            background-color: transparent;
+            background-image: linear-gradient(
+                120deg,
+                rgba(255, 255, 255, 0.1),
+                rgba(255, 255, 255, 0.1)
+            );
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            border: 2px solid rgb(34, 22, 22);
+        }
+        
+        .stat-box:hover {
+            transform: translateY(-10px);
+        }
+        
+        .stat-icon {
+            animation: bounce 2s infinite;
+        }
+        
+        .stat-icon i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ffcc00;
+            transition: animation 0.3s ease-in-out;
+        }
+        
+        .stat-content {
+            font-size: 1.5rem;
+            font-family: "Outfitv";
+            font-weight: bold;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+            animation: countUp 2s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @keyframes countUp {
+            from { opacity: 0; }
+        }
+                </code></pre>
+
+            <h3>JavaScript Functionality</h3>
+            <pre><code>
+                const statsSection = document.querySelector(".stats-section");
+                if (statsSection) {
+                    // Stats section animations
+                    let valueDisplays = document.querySelectorAll(".stat-number");
+                    valueDisplays.forEach((valueDisplay) => {
+                        let startValue = 0;
+                        let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                        let duration = Math.floor(4000 / endValue);
+                        let counter = setInterval(function () {
+                            startValue += 1;
+                            valueDisplay.textContent = startValue;
+                            if (startValue == endValue) {
+                                clearInterval(counter);
+                            }
+                        }, duration);
+                    });
+                }
+               </code></pre>
+
+            <h3>Notes</h3>
+            <ul>
+                <li>Ensure that the background image path in the CSS is correct and points to a valid image file.</li>
+                <li>Customize the text content in the HTML to match your specific statistics and data.</li>
+                <li>Adjust the CSS to fit your design preferences, including font sizes, colors, and box dimensions.
+                </li>
+                <li>Consider adding additional JavaScript if you want more dynamic behavior or animations.</li>
+                <li>Ensure all required Bootstrap and icon library files are included in your project for proper styling
+                    and functionality.</li>
+            </ul>
+
+        </div>
+
+        <div class="section" id="expertise">
+            <h2>h. Skills Section</h2>
+            <p>This section displays a set of skills with animated skill bars that fill up to indicate proficiency
+                levels.</p>
+
+            <h3>HTML Structure</h3>
+            <p>Use the following HTML code to create the Skills Section:</p>
+            <pre><code>
+        &lt;div class="col-md-5 col-12 mt-2"&gt;
+            &lt;div class="skill-bar"&gt;
+                &lt;div class="skill" data-skill="HTML" data-percent="90"&gt;
+                    &lt;span class="skill-label"&gt;HTML&lt;/span&gt;
+                    &lt;div class="skill-bar-fill"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="skill" data-skill="CSS" data-percent="80"&gt;
+                    &lt;div class="skill-bar-fill"&gt;&lt;/div&gt;
+                    &lt;span class="skill-label"&gt;CSS&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="skill" data-skill="JavaScript" data-percent="75"&gt;
+                    &lt;div class="skill-bar-fill"&gt;&lt;/div&gt;
+                    &lt;span class="skill-label"&gt;JavaScript&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="skill" data-skill="Bootstrap" data-percent="85"&gt;
+                    &lt;div class="skill-bar-fill"&gt;&lt;/div&gt;
+                    &lt;span class="skill-label"&gt;Bootstrap&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </code></pre>
+
+            <h3>CSS Styling</h3>
+            <p>Apply the following CSS to style the Skills Section:</p>
+            <pre><code>
+        .skill-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            cursor: pointer;
+        }
+        
+        .skill {
+            position: relative;
+            background-color: #333;
+            overflow: hidden;
+            height: 20px;
+            box-shadow: 0 0 10px rgba(255, 138, 105, 0.8); /* Neon glow effect */
+            border-radius: 2px;
+        }
+        
+        .skill-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff5e00, #00ffff); /* Gradient neon color */
+            width: 0;
+            transition: width 1s ease-out;
+            box-shadow: 0 0 10px rgba(255, 160, 105, 0.8), 0 0 10px rgba(0, 255, 255, 0.8); /* Neon glow effect */
+            border-radius: 2px;
+        }
+        
+        .skill-label {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.8rem;
+            z-index: 1;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .skill {
+            animation: fadeIn 1s ease-out;
+        }
+        
+        .circle {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            background: conic-gradient(#333 0%, #333 100%);
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.8), 0 0 20px rgba(0, 255, 255, 0.8); /* Neon glow effect */
+        }
+        
+        .inner-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.5rem;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        @media (max-width: 600px) {
+            .circle-container {
+                margin-top: 50px !important;
+            }
+        }
+                </code></pre>
+
+            <h3>JavaScript Functionality</h3>
+            <p>The following JavaScript code animates the skill bars when they come into view:</p>
+            <pre><code>
+        function animateCounters(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Perform animations
+                    
+                    const skillSection = document.querySelector("#skills-section");
+                    const circlesSection = document.querySelector("#section4");
+        
+                
+                    if (skillSection) {
+                        // Skill bar animations
+                        const skills = document.querySelectorAll('.skill');
+                        skills.forEach(skill => {
+                            const percent = skill.getAttribute('data-percent');
+                            const skillBarFill = skill.querySelector('.skill-bar-fill');
+                            skillBarFill.style.width = percent + '%';
+                        });
+                    }
+        
+                    if (circlesSection) {
+                        // Circular percentage bars
+                        const circles = document.querySelectorAll('.circle');
+                        circles.forEach(circle => {
+                            const percent = circle.querySelector('.inner-circle').getAttribute('data-percent');
+                            circle.style.background = `conic-gradient(from 0deg, #ff5e00, #00ffff ${percent}%, #333 ${percent}%)`;
+                        });
+                    }
+        
+                    // Unobserve after animation is triggered
+                    observer.unobserve(entry.target);
+                }
+            });
+        }
+        
+        let observerOptions = { threshold: 0.5 };
+        let observer = new IntersectionObserver(animateCounters, observerOptions);
+        
+        let sections = document.querySelectorAll(".stats-section, #skills-section, #section4");
+        sections.forEach(section => observer.observe(section));
+                </code></pre>
+
+            <h3>Notes</h3>
+            <ul>
+                <li>Ensure that the background image path in the CSS is correct and points to a valid image file.</li>
+                <li>Customize the text content in the HTML to match your specific skills and proficiency levels.</li>
+                <li>Adjust the CSS to fit your design preferences, including font sizes, colors, and box dimensions.
+                </li>
+                <li>Consider adding additional JavaScript if you want more dynamic behavior or animations.</li>
+                <li>Ensure all required Bootstrap and icon library files are included in your project for proper styling
+                    and functionality.</li>
+            </ul>
+            </section>
+
+        </div>
+
+        <div class="section" id="ourservices">
+            <h2>i. Our Services Section</h2>
+            <p>This section showcases the services offered, with images, icons, and descriptions for each service.</p>
+
+            <h3>HTML Structure</h3>
+            <p>Use the following HTML code to create the Services Section:</p>
+            <pre><code>
+        &lt;!-- Services Section --&gt;
+        &lt;div class="services text-center"&gt;
+            &lt;div class="container"&gt;
+                &lt;h1&gt;Our Services&lt;/h1&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="col-md-4 mb-4"&gt;
+                        &lt;div class="service-box"&gt;
+                            &lt;img src="resources/otherImages/1.png" alt="Service One Image" class="service-image"&gt;
+                            &lt;div class="service-icon"&gt;
+                                &lt;i class="bi bi-gear"&gt;&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class="service-content"&gt;
+                                &lt;h3&gt;Service One&lt;/h3&gt;
+                                &lt;p&gt;Brief description of service one that highlights the main features and benefits.&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col-md-4 mb-4"&gt;
+                        &lt;div class="service-box"&gt;
+                            &lt;img src="resources/otherImages/2.png" alt="Service Two Image" class="service-image"&gt;
+                            &lt;div class="service-icon"&gt;
+                                &lt;i class="bi bi-lightbulb"&gt;&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class="service-content"&gt;
+                                &lt;h3&gt;Service Two&lt;/h3&gt;
+                                &lt;p&gt;Brief description of service two that highlights the main features and benefits.&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col-md-4 mb-4"&gt;
+                        &lt;div class="service-box"&gt;
+                            &lt;img src="resources/otherImages/3.png" alt="Service Three Image" class="service-image"&gt;
+                            &lt;div class="service-icon"&gt;
+                                &lt;i class="bi bi-star"&gt;&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class="service-content"&gt;
+                                &lt;h3&gt;Service Three&lt;/h3&gt;
+                                &lt;p&gt;Brief description of service three that highlights the main features and benefits.&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                </code></pre>
+
+            <h3>CSS Styling</h3>
+            <p>Apply the following CSS to style the Services Section:</p>
+            <pre><code>
+        #parallax5 {
+            background-image: url(resources/background-img/9.png);
+        }
+        
+        .services {
+            padding: 60px 0;
+        }
+        
+        .services h1 {
+            font-family: "Outfitv";
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        
+        .service-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            z-index: 2;
+        }
+        
+        .service-box h3, p {
+            font-family: "Outfitv";
+            font-weight: bold;
+        }
+        
+        .service-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .service-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .service-image:hover {
+            transform: scale(1.15);
+        }
+        
+        .service-icon {
+            margin-bottom: 10px;
+            color: #e65c4e;
+            animation: iconBounce 1.5s infinite;
+        }
+        
+        .service-icon i {
+            font-size: 50px;
+        }
+        
+        @keyframes iconBounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .service-content {
+            text-align: center;
+        }
+        
+        .service-content h3 {
+            margin-bottom: 15px;
+            color: #343a40;
+        }
+        
+        .service-content p {
+            color: #6c757d;
+        }
+                </code></pre>
+
+
+
+        </div>
+
+        <div class="section" id="ourwork">
+            <h2>j. Our work navtab section</h2>
+            <p>To enable dynamic content loading, include the following JavaScript in your <code>main.js</code> file:
+            </p>
+            <pre><code>document.addEventListener('DOMContentLoaded', function () {
+            // Trigger animations on tab show
+            $('#workTabs a').on('shown.bs.tab', function (event) {
+                let target = $(event.target).attr("data-bs-target"); // Get the target tab content
+                if (target === '#from-middle') {
+                    $('.animate-middle').css('animation', 'from-middle 1s ease forwards');
+                } else if (target === '#from-bottom') {
+                    $('.animate-bottom').css('animation', 'from-bottom 1s ease forwards');
+                } else if (target === '#from-right') {
+                    $('.animate-right').css('animation', 'from-right 1s ease forwards');
+                } else if (target === '#from-left') {
+                    $('.animate-left').css('animation', 'from-left 1s ease forwards');
+                }
+            });
+        
+            // Trigger initial tab animation
+            let activeTab = $('#workTabs .active').attr("data-bs-target");
+            if (activeTab === '#from-middle') {
+                $('.animate-middle').css('animation', 'from-middle 1s ease forwards');
+            } else if (activeTab === '#from-bottom') {
+                $('.animate-bottom').css('animation', 'from-bottom 1s ease forwards');
+            } else if (activeTab === '#from-right') {
+                $('.animate-right').css('animation', 'from-right 1s ease forwards');
+            } else if (activeTab === '#from-left') {
+                $('.animate-left').css('animation', 'from-left 1s ease forwards');
+            }
+        });</code></pre>
+            <p>This script initializes the animations based on the active tab and triggers them when tabs are switched.
+            </p>
+        </div>
+
+        <div class="section" id="pricing">
+            <h2>k. Pricing Section</h2>
+            <p>The "Pricing" section is structured using Bootstrap's grid system and card components. Each pricing plan
+                is enclosed in a Bootstrap card within a column.</p>
+
+            <h3>Section Breakdown</h3>
+
+            <h4>Section Container:</h4>
+            <ul>
+                <li>The section is wrapped in a <code>&lt;div&gt;</code> with an ID of <code>pricing</code> and classes
+                    <code>py-5</code> for padding.</li>
+                <li>Inside it, a <code>&lt;div&gt;</code> with the class <code>container mb-5</code> is used to center
+                    the content and add a bottom margin.</li>
+            </ul>
+
+            <h4>Section Title:</h4>
+            <ul>
+                <li>A <code>&lt;row&gt;</code> with the class <code>text-center mb-5</code> contains a single column
+                    (<code>col</code>) for the section title and subtitle.</li>
+                <li>The title is enclosed in an <code>&lt;h2&gt;</code> element with a custom class
+                    <code>section-title-pricing</code>.</li>
+                <li>The subtitle is in a <code>&lt;p&gt;</code> element with the class <code>section-subtitle</code>.
+                </li>
+            </ul>
+
+            <h4>Pricing Cards:</h4>
+            <ul>
+                <li>Another <code>&lt;row&gt;</code> with the class <code>g-4</code> holds the individual pricing plan
+                    cards.</li>
+                <li>Each pricing plan is enclosed in a <code>&lt;div&gt;</code> with the classes <code>col-md-4</code>
+                    and <code>card pricing-card h-100</code>.</li>
+                <li>The featured card has an additional class <code>featured</code>.</li>
+            </ul>
+
+            <h3>Card Content</h3>
+
+            <h4>Card Body:</h4>
+            <ul>
+                <li>Inside each card, a <code>&lt;div&gt;</code> with the class <code>card-body</code> contains the
+                    content.</li>
+                <li>The plan name is in an <code>&lt;h5&gt;</code> element with the class <code>card-title</code>.</li>
+                <li>The price is in an <code>&lt;h6&gt;</code> element with the class <code>card-price</code>. It
+                    includes a <code>&lt;span&gt;</code> with the class <code>period</code> to style the period.</li>
+            </ul>
+
+            <h4>Plan Features:</h4>
+            <ul>
+                <li>A horizontal rule (<code>&lt;hr&gt;</code>) separates the title/price from the feature list.</li>
+                <li>The feature list is an unordered list (<code>&lt;ul&gt;</code>) with the class <code>fa-ul</code>.
+                </li>
+                <li>Each feature is a list item (<code>&lt;li&gt;</code>) with a FontAwesome icon (<code>fa-li</code>)
+                    indicating whether the feature is included or not (<code>fa-check</code> for included,
+                    <code>fa-times</code> for excluded).</li>
+            </ul>
+
+            <h4>Action Button:</h4>
+            <ul>
+                <li>A button with the classes <code>btn btn-primary mt-3</code> is used for the call to action (e.g.,
+                    "Get Started").</li>
+            </ul>
+
+            <h3>Customization</h3>
+
+            <h4>Adding/Removing Features:</h4>
+            <ul>
+                <li>To add a feature, include a new <code>&lt;li&gt;</code> element within the <code>&lt;ul&gt;</code>
+                    and use the appropriate FontAwesome icons.</li>
+                <li>To remove a feature, simply delete the corresponding <code>&lt;li&gt;</code> element.</li>
+            </ul>
+
+            <h4>Changing Prices and Titles:</h4>
+            <ul>
+                <li>Modify the content inside the <code>&lt;h5&gt;</code> element to change the plan name.</li>
+                <li>Adjust the content inside the <code>&lt;h6&gt;</code> element to change the price and period.</li>
+            </ul>
+
+            <h4>Styling:</h4>
+            <ul>
+                <li>Custom classes like <code>section-title-pricing</code>, <code>section-subtitle</code>, and
+                    <code>pricing-card</code> can be styled in your CSS file.</li>
+                <li>For instance, to change the background color of the featured card, you can add CSS for the
+                    <code>.featured</code> class.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="#testimonial">
+
+            <h2>l. Customer Testimonial Section</h2>
+            <p>The "Testimonials" section is designed to display client feedback using a Bootstrap carousel for sliding
+                through the reviews. Each testimonial is enclosed in a Bootstrap card within a carousel item.</p>
+
+            <h3>Section Breakdown</h3>
+
+            <h4>Section Container:</h4>
+            <ul>
+                <li>The section is wrapped in a <code>&lt;div&gt;</code> with the ID <code>parallax6</code> and the
+                    class <code>parallax</code>.</li>
+                <li>Inside it, a <code>&lt;div&gt;</code> with the ID <code>testimonials</code> and the class
+                    <code>py-5</code> is used for padding.</li>
+                <li>A <code>&lt;div&gt;</code> with the class <code>container</code> centers the content.</li>
+            </ul>
+
+            <h4>Section Title:</h4>
+            <ul>
+                <li>The section title "What Our Clients Say" is inside an <code>&lt;h1&gt;</code> element with the class
+                    <code>text-center mb-4</code> for center alignment and bottom margin.</li>
+            </ul>
+
+            <h4>Carousel:</h4>
+            <ul>
+                <li>A <code>&lt;div&gt;</code> with the ID <code>reviewsCarousel</code> and the class
+                    <code>carousel slide</code> is used for the carousel.</li>
+                <li>It includes attributes <code>data-bs-ride="carousel"</code> and <code>data-bs-interval="5000"</code>
+                    to control the carousel behavior.</li>
+            </ul>
+
+            <h4>Carousel Items:</h4>
+            <ul>
+                <li>Each carousel item is wrapped in a <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code>. The first item also includes the class <code>active</code>.</li>
+                <li>Inside each carousel item, there is a row with the class <code>row-cols-1 row-cols-md-3 g-4</code>
+                    to handle column layout and gaps.</li>
+            </ul>
+
+            <h4>Testimonial Cards:</h4>
+            <ul>
+                <li>Each testimonial is contained in a <code>&lt;div&gt;</code> with the class
+                    <code>col position-relative</code>.</li>
+                <li>The card itself uses the class
+                    <code>testimonial-card p-4 bg-white shadow-sm rounded text-center</code> for padding, background,
+                    shadow, rounded corners, and center alignment.</li>
+            </ul>
+
+            <h3>Card Content</h3>
+
+            <h4>Testimonial Image:</h4>
+            <ul>
+                <li>The image is contained in a <code>&lt;div&gt;</code> with the class
+                    <code>testimonial-image mb-3</code> for margin bottom.</li>
+                <li>The image itself uses the classes <code>rounded-circle</code> for circular images.</li>
+            </ul>
+
+            <h4>Quote Icon:</h4>
+            <ul>
+                <li>An icon element with the classes <code>bi bi-quote quote-icon</code> is used to display a quote
+                    icon.</li>
+            </ul>
+
+            <h4>Testimonial Text:</h4>
+            <ul>
+                <li>The text is inside a <code>&lt;p&gt;</code> element with the class
+                    <code>testimonial-text mb-3</code>.</li>
+            </ul>
+
+            <h4>Testimonial Name and Position:</h4>
+            <ul>
+                <li>The name is in an <code>&lt;h5&gt;</code> element with the class <code>testimonial-name</code>.</li>
+                <li>The position is in a <code>&lt;p&gt;</code> element with the class
+                    <code>testimonial-position</code>.</li>
+            </ul>
+
+            <h3>Customization</h3>
+
+            <h4>Adding/Removing Testimonials:</h4>
+            <ul>
+                <li>To add a testimonial, include a new <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code> inside the <code>carousel-inner</code> div and follow the existing
+                    structure.</li>
+                <li>To remove a testimonial, delete the corresponding <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code>.</li>
+            </ul>
+
+            <h4>Changing Images, Text, and Names:</h4>
+            <ul>
+                <li>Modify the <code>&lt;img&gt;</code> element's <code>src</code> attribute to change the image.</li>
+                <li>Adjust the content inside the <code>&lt;p&gt;</code> elements with the classes
+                    <code>testimonial-text</code> and <code>testimonial-position</code> to change the text and position.
+                </li>
+                <li>Modify the content inside the <code>&lt;h5&gt;</code> element to change the name.</li>
+            </ul>
+
+            <h4>Styling:</h4>
+            <ul>
+                <li>Custom classes like <code>testimonial-card</code>, <code>quote-icon</code>,
+                    <code>testimonial-name</code>, and <code>testimonial-position</code> can be styled in your CSS file.
+                </li>
+                <li>For example, to change the background color of the testimonial card, you can add CSS for the
+                    <code>.testimonial-card</code> class.</li>
+            </ul>
+
+        </div>
+
+        <div class="section" id="#gallery">
+            <h2>m. Image Gallery</h2>
+            <p>The Gallery Section is designed to showcase images in a grid layout. It includes a header with a title,
+                subtitle, and description, followed by a grid of images of varying sizes. The section is styled with a
+                parallax background effect for a modern look.</p>
+
+            <h3> HTML Structure</h3>
+            <p>The HTML structure for the gallery section is as follows:</p>
+            <pre><code>&lt;div id="parallax7"&gt;
+    &lt;div class="gallery-section"&gt;
+        &lt;div class="gallery-header"&gt;
+            &lt;h1&gt;Our Journey&lt;/h1&gt;
+            &lt;h3&gt;Transforming Ideas into Reality&lt;/h3&gt;
+            &lt;p&gt;Donec vel sapien augue integer urna scelerisque tincidunt. Fusce ut placerat orci nulla pellentesque dignissim.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery-grid"&gt;
+            &lt;div class="gallery-item large"&gt;
+                &lt;img src="resources/staff/7ImageGallery.png" alt="Gallery Image 1"&gt;
+            &lt;/div&gt;
+            &lt;div class="gallery-item small"&gt;
+                &lt;img src="resources/staff/2.png" alt="Gallery Image 2"&gt;
+            &lt;/div&gt;
+            &lt;div class="gallery-item medium"&gt;
+                &lt;img src="resources/background-img/3.png" alt="Gallery Image 3"&gt;
+            &lt;/div&gt;
+            &lt;div class="gallery-item small"&gt;
+                &lt;img src="resources/staff/1.png" alt="Gallery Image 4"&gt;
+            &lt;/div&gt;
+            &lt;div class="gallery-item medium"&gt;
+                &lt;img src="resources/background-img/5.png" alt="Gallery Image 5"&gt;
+            &lt;/div&gt;
+            &lt;div class="gallery-item medium"&gt;
+                &lt;img src="resources/background-img/1.png" alt="Gallery Image 6"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+            <h3> CSS Styles</h3>
+            <p>The gallery section is styled with the following CSS rules:</p>
+            <pre><code>/* Parallax Background */
+#parallax7 {
+    background-image: url('resources/background-img/10.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 40px 20px;
+}
+
+#parallax7::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Gallery Section */
+.gallery-section {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.gallery-header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+
+.gallery-header h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: #d66a11;
+}
+
+.gallery-header p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff !important;
+}
+
+/* Grid Layout */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.2);
+}
+
+.gallery-item.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gallery-item.medium {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.gallery-item.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* Responsive Design */
+@media (max-width: 820px) {
+    .gallery-item.large,
+    .gallery-item.medium,
+    .gallery-item.small {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}</code></pre>
+
+            <h3>Customization</h3>
+            <h5>Header Text</h5>
+            <p>Edit the header text by modifying the <code>&lt;h1&gt;</code>, <code>&lt;h3&gt;</code>, and
+                <code>&lt;p&gt;</code> tags within the <code>gallery-header</code> div.</p>
+
+            <h3>Images</h3>
+            <p>Update the images in the gallery by changing the <code>src</code> attribute of the
+                <code>&lt;img&gt;</code> tags in the <code>gallery-grid</code> div. Ensure images are appropriately
+                sized to match their container classes (large, medium, small).</p>
+
+            <h3>Grid Layout</h3>
+            <p>Adjust the grid layout by modifying the <code>gallery-item</code> classes and their corresponding CSS
+                rules. You can change the number of columns and rows each item spans by altering the
+                <code>grid-column</code> and <code>grid-row</code> properties.</p>
+
+        </div>
+
+        <div class="section" id="#footer">
+            <h2>n. Footer Section</h2>
+            <p>The "Testimonials" section is designed to display client feedback using a Bootstrap carousel for sliding
+                through the reviews. Each testimonial is enclosed in a Bootstrap card within a carousel item.</p>
+
+            <h3>Section Breakdown</h3>
+
+            <h4>Section Container:</h4>
+            <ul>
+                <li>The section is wrapped in a <code>&lt;div&gt;</code> with the ID <code>parallax6</code> and the
+                    class <code>parallax</code>.</li>
+                <li>Inside it, a <code>&lt;div&gt;</code> with the ID <code>testimonials</code> and the class
+                    <code>py-5</code> is used for padding.</li>
+                <li>A <code>&lt;div&gt;</code> with the class <code>container</code> centers the content.</li>
+            </ul>
+
+            <h4>Section Title:</h4>
+            <ul>
+                <li>The section title "What Our Clients Say" is inside an <code>&lt;h1&gt;</code> element with the class
+                    <code>text-center mb-4</code> for center alignment and bottom margin.</li>
+            </ul>
+
+            <h4>Carousel:</h4>
+            <ul>
+                <li>A <code>&lt;div&gt;</code> with the ID <code>reviewsCarousel</code> and the class
+                    <code>carousel slide</code> is used for the carousel.</li>
+                <li>It includes attributes <code>data-bs-ride="carousel"</code> and <code>data-bs-interval="5000"</code>
+                    to control the carousel behavior.</li>
+            </ul>
+
+            <h4>Carousel Items:</h4>
+            <ul>
+                <li>Each carousel item is wrapped in a <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code>. The first item also includes the class <code>active</code>.</li>
+                <li>Inside each carousel item, there is a row with the class <code>row-cols-1 row-cols-md-3 g-4</code>
+                    to handle column layout and gaps.</li>
+            </ul>
+
+            <h4>Testimonial Cards:</h4>
+            <ul>
+                <li>Each testimonial is contained in a <code>&lt;div&gt;</code> with the class
+                    <code>col position-relative</code>.</li>
+                <li>The card itself uses the class
+                    <code>testimonial-card p-4 bg-white shadow-sm rounded text-center</code> for padding, background,
+                    shadow, rounded corners, and center alignment.</li>
+            </ul>
+
+            <h3>Card Content</h3>
+
+            <h4>Testimonial Image:</h4>
+            <ul>
+                <li>The image is contained in a <code>&lt;div&gt;</code> with the class
+                    <code>testimonial-image mb-3</code> for margin bottom.</li>
+                <li>The image itself uses the classes <code>rounded-circle</code> for circular images.</li>
+            </ul>
+
+            <h4>Quote Icon:</h4>
+            <ul>
+                <li>An icon element with the classes <code>bi bi-quote quote-icon</code> is used to display a quote
+                    icon.</li>
+            </ul>
+
+            <h4>Testimonial Text:</h4>
+            <ul>
+                <li>The text is inside a <code>&lt;p&gt;</code> element with the class
+                    <code>testimonial-text mb-3</code>.</li>
+            </ul>
+
+            <h4>Testimonial Name and Position:</h4>
+            <ul>
+                <li>The name is in an <code>&lt;h5&gt;</code> element with the class <code>testimonial-name</code>.</li>
+                <li>The position is in a <code>&lt;p&gt;</code> element with the class
+                    <code>testimonial-position</code>.</li>
+            </ul>
+
+            <h3>Customization</h3>
+
+            <h4>Adding/Removing Testimonials:</h4>
+            <ul>
+                <li>To add a testimonial, include a new <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code> inside the <code>carousel-inner</code> div and follow the existing
+                    structure.</li>
+                <li>To remove a testimonial, delete the corresponding <code>&lt;div&gt;</code> with the class
+                    <code>carousel-item</code>.</li>
+            </ul>
+
+            <h4>Changing Images, Text, and Names:</h4>
+            <ul>
+                <li>Modify the <code>&lt;img&gt;</code> element's <code>src</code> attribute to change the image.</li>
+                <li>Adjust the content inside the <code>&lt;p&gt;</code> elements with the classes
+                    <code>testimonial-text</code> and <code>testimonial-position</code> to change the text and position.
+                </li>
+                <li>Modify the content inside the <code>&lt;h5&gt;</code> element to change the name.</li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
